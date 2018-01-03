@@ -18,6 +18,7 @@ Child.scoped.includes(:foo).first
 # works
 Child.scoped.includes(:bar).first
 # fails
+# NoMethodError: undefined method `bar_id' for #<Foo _id: 5a4d08f2dea60e7f5fae02aa, >
 Child.scoped.includes(:foo, :bar).first
 
 # similar bug https://jira.mongodb.org/browse/MONGOID-4297
