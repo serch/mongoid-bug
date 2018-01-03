@@ -1,6 +1,6 @@
 development:
   clients:
     default:
-      database: mongoid
+      database: mongoidsix
       hosts:
         - localhost:27017
