@@ -19,3 +19,5 @@ Child.scoped.includes(:foo).first
 Child.scoped.includes(:bar).first
 # fails
 Child.scoped.includes(:foo, :bar).first
+
+# similar bug https://jira.mongodb.org/browse/MONGOID-4297
